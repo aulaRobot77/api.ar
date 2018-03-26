@@ -1,0 +1,23 @@
+{
+  "name": "api-aula-robot",
+  "version": "1.0.0",
+  "description": "Api REST Aula Robot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniela Manrique",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
