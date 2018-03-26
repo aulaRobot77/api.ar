@@ -2,7 +2,7 @@
 
 var mongoose = require("mongoose");
 var app = require ('./app');
-var port = process.env.PORT || 3789;
+const port = process.env.PORT || 3789;
 
 mongoose.connect('mongodb://localhost:27017/aularobotdb', (err, res) => {
   if(err){
